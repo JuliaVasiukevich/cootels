@@ -2,36 +2,77 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Montserrat:ital,wght@0,400;0,600;1,600&family=Roboto:wght@300&display=swap");
 
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Inter", sans-serif;
-    font-size: 18px;
-    line-height: 150%;
-    color: #848fac;
-    margin: auto;
-    max-width: 1200px;
-    padding: 0 5px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #848fac;
+  margin: auto;
+  max-width: 1200px;
+  padding: 0 5px;
 }
 
-.button {
-    padding: 16px 32px;
-    background: #0e1734;
-    border-radius: 4px;
-    color: #ffffff;
-    cursor: pointer;
-    font-size: 16px;
+.section {
+  padding: 80px 0px 80px;
 }
 
-.section{
-    padding: 80px 0px 80px;
+.section__direction {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
-.section__direction{
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
+.title {
+  font-size: 42px;
+}
+
+.arrow-right {
+  display: inline-block;
+  background: url("../image/arrow-right.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+
+.get-room {
+  display: flex;
+  align-items: center;
+}
+
+.get-room__content {
+  width: 50%;
+}
+
+.arrow__down {
+  margin: 10px;
+  width: 20px;
+  height: 20px;
+  background: url("../image/arrow-down.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  vertical-align: middle;
+}
+
+.arrow__up {
+  margin: 10px;
+  width: 20px;
+  height: 20px;
+  background: url("../image/arrow-up.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  vertical-align: middle;
+}
+
+.footer {
+  background-color: rgba(11, 38, 90, 1);
 }

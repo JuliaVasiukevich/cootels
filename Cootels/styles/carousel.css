@@ -1,0 +1,31 @@
+.carousel__control-item {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: rgba(255, 236, 226, 1);
+  border-radius: 50%;
+}
+
+.carousel__title {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 39px;
+  color: #192252;
+  margin-bottom: 62px;
+}
+
+.carousel__control-item--active {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: rgba(250, 176, 71, 1);
+  border-radius: 50%;
+}
+
+.carousel__control {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}

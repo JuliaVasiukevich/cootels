@@ -1,0 +1,26 @@
+.reservation__wrapper {
+  text-align: center;
+  margin-bottom: 88px;
+}
+
+.reservation__container {
+  display: flex;
+  margin: 0px -12px;
+}
+
+.reservation__room-card {
+  margin: 0px 12px;
+}
+
+.reservation__title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #192252;
+  margin-bottom: 24px;
+}
+
+.reservation__description {
+  margin-bottom: 32px;
+}
