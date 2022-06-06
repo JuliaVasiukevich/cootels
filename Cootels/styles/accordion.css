@@ -1,0 +1,45 @@
+.accordion {
+  width: 50%;
+}
+
+.accordion-item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.accordion-item__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-item {
+  box-shadow: 0 0 10px 2px rgba(170, 173, 184, 0.1);
+  padding: 32px;
+}
+
+.accordion-item__toggle {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 236, 226, 1);
+  border-radius: 50%;
+}
+
+.accordion-item__title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #424f7b;
+}
+
+.accordion-item__toggle--active {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 98, 10, 1);
+  border-radius: 50%;
+}
+
+.accordion-item__description {
+  margin-top: 24px;
+}

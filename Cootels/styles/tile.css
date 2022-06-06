@@ -1,0 +1,29 @@
+.tile {
+  display: flex;
+  align-items: center;
+  gap: 126px;
+}
+
+.tile__title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 39px;
+  color: #192252;
+  margin-bottom: 24px;
+}
+
+.tile__subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  color: #424f7b;
+  margin-bottom: 12px;
+}
+
+.tile__description {
+  margin-bottom: 32px;
+}
+
+.title__button {
+  padding: 16px 32px;
+}
